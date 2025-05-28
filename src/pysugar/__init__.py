@@ -2,7 +2,7 @@ from functools import reduce, partial
 from math import ceil, floor
 from statistics import mean
 from time import sleep
-import sys.stderr 
+import sys
 
 def efilter(*args, **kwargs):
     return list(filter(*args, **kwargs))
