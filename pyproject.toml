@@ -1,0 +1,17 @@
+[ybuild-system]
+requires = ["setuptools >= 77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysugar"
+version = "0.1.0"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+description = "syntax sugar for how i use python"
+dependencies = [
+  "more_itertools==10.7.0"
+  ]
+
+[project.urls]
+Repository = "https://github.com/flowpoint/pysugar/tree/main"
+
