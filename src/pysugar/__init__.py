@@ -12,3 +12,7 @@ def emap(*args, **kwargs):
 
 def eprint(*args, **kwargs):
     print(*args, file=sys.stderr, **kwargs)
+
+def dpop(k, d):
+    d.pop(k, None)
+    return d
